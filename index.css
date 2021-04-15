@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1.name {
+    text-align: center;
+}
+
+.fadein {
+    animation: fadein ease 10s;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
