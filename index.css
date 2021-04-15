@@ -2,8 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
-h1 {
+#name {
     text-align: center;
+    padding-top: 20%;
+    padding-bottom: 60%;
+    align-self: center;
+}
+
+#home {
+    align-self: center;
 }
 
 .fadein {
