@@ -1,27 +1,15 @@
-html {
+html, body {
+    height: 100%;
+    margin: 0;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
-#name {
-    text-align: center;
-    padding-top: 20%;
-    padding-bottom: 60%;
-    align-self: center;
+#projects {
+    min-height: 100%;
+} 
+
+#technologies {
+    min-height: 100%;
 }
 
-#home {
-    align-self: center;
-}
-
-.fadein {
-    animation: fadein ease 10s;
-}
-
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
