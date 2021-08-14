@@ -5,6 +5,10 @@ html, body {
     overflow: hidden;
 }
 
+.home {
+    vertical-align: middle;
+}
+
 #projects {
     min-height: 100%;
 } 
@@ -12,4 +16,3 @@ html, body {
 #technologies {
     min-height: 100%;
 }
-
