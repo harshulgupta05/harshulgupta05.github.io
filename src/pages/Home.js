@@ -6,6 +6,30 @@ import '../styles/fullscreen.css';
 function Home() {
     return (
         <div className="container my-4 main" id="home">
+            <nav className="navbar navbar-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="/">Harshul Gupta</a>
+                    <div className="collapse navbar-collapse">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                 <Button buttonname="Projects" buttonlink="projects" />
+                            </li>
+                            <li className="nav-item">
+                                <Button buttonname="Technologies" buttonlink="technologies" />
+                            </li>
+                            <li className="nav-item">
+                                 <Button buttonname="Achievements" buttonlink="achievements" />
+                            </li>
+                            <li className="nav-item">
+                                 <Button buttonname="Work &amp; Volunteering" buttonlink="work" />
+                            </li>
+                            <li className="nav-item">
+                                <Button buttonname="Hobbies" buttonlink="hobbies" />
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <div className="row">
                 <div className="col-sm-4 my-4">
                     <img src={me} className="img-fluid" alt="Harshul"></img>
