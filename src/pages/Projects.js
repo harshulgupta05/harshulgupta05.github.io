@@ -9,7 +9,7 @@ import snake from "../media/snake.png";
 function Projects() {
     return (
         <div id="projects" className="main">
-            <h1 className="display-2 m-4">Projects</h1>
+            <h1 className="display-2 mt-6 m-4">Projects</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
