@@ -30,7 +30,7 @@ function Achievements() {
                         <Technology protitle="Hack Against Hate" imageTitle="Credit: Ryerson DMZ" imagelink={hah} description="WINNER at Hack Against Hate with PROtectABot." />
                     </div>
                     <div className="col-sm">
-                        <Technology protitle="Introduction to Mathematical Thinking" imageTitle="Credit: Stanford University, Public domain, via Wikimedia Commons" imagelink={stan} description="Completed MOOC course on Coursera." />
+                        <Technology protitle="Introduction to Mathematical Thinking - Stanford Online" imageTitle="Credit: Stanford University, Public domain, via Wikimedia Commons" imagelink={stan} description="Completed MOOC course on Coursera." />
                     </div>
                 </div>
             </div>

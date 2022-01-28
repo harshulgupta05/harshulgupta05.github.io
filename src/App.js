@@ -5,11 +5,14 @@ import Projects from './pages/Projects';
 import Technologies from './pages/Technologies';
 import Work from './pages/Work';
 import Hobbies from './pages/Hobbies';
+// import Particles from 'react-particles-js';
+// import particlesConfig from './config/configParticles.js';
 import Achievements from './pages/Achievements';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">      
+      {/* <Particles options={particlesConfig} />       */}
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
             <a className="navbar-brand" href="#home">Harshul Gupta</a>
@@ -22,11 +25,11 @@ function App() {
                         <a className="nav-link" href="#technologies">Technologies</a>
                     </li>
                     <li className="nav-item mx-2">
-                          <a className="nav-link" href="#achievements">Achievements</a>
-                    </li>
-                    <li className="nav-item mx-2">
                           <a className="nav-link" href="#work">Work &amp; Volunteering</a>
                     </li>
+                    <li className="nav-item mx-2">
+                          <a className="nav-link" href="#achievements">Achievements</a>
+                    </li>                    
                     <li className="nav-item mx-2">
                         <a className="nav-link" href="#hobbies">Hobbies</a>
                     </li>                            

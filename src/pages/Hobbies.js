@@ -11,7 +11,7 @@ function Hobbies() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
-                        <Technology protitle="Circuitry with Raspberry Pi" description="I actively work with circuitry with my Raspberry Pi." imagelink={pi} imageTitle="Miiicihiaieil  Hieinizilieir / Wikimedia Commons" />
+                        <Technology protitle="Circuitry with Raspberry Pi" description="I actively work with circuitry with my Raspberry Pi, including working with GPIO input to create game controllers." imagelink={pi} imageTitle="Miiicihiaieil  Hieinizilieir / Wikimedia Commons" />
                     </div>
                     <div className="col-sm">
                         <Technology protitle="Cooking" description="I enjoy cooking and developing new recipes, some of which have been published in Modern Mississauga." imagelink={cookies} />
