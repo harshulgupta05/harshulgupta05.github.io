@@ -13,8 +13,21 @@ function Achievements() {
             <h1 className="display-2">Achievements/Certifications</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm">
+                    {/* <div className="col-sm">
                         <Technology protitle="Centre for Education in Mathematics and Computing" imageTitle="Credit: UWaterloo" imagelink={cemc} description="Received certificates of distinction for 2021 CCC Junior, Fryer, Pascal, and Cayley Contests. School champion for Fryer, Hypatia Contest." />
+                    </div> */}
+                    <div className="container card my-2">
+                        <div className="row">
+                            <div className="col">
+                                <img style={{width: "18rem", height: "10rem"}} className="img-fluid m-2" alt="For project" src={cemc} title='Credit: UWaterloo' />
+                                <h3 className="m-2">Centre for Education in Mathematics and Computing</h3>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <p className="lead" style={{color: "blue"}}>Received Certificates of Distinction in 2021 CCC Junior, Fryer, Pascal, and Cayley Contests.</p><p className="lead" style={{color: "black"}}> School champion for Fryer, Hypatia Contest.</p>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-sm">
                         <Technology protitle="AP College Board" imageTitle="Credit: Original:College BoardVector: WClarke, Public domain, via Wikimedia Commons" imagelink={ap} description="Received AP Scholar Award. Received 5 in AP Calculus BC Exam. Received 4 in AP Chemistry and AP Physics 1 Exams." />

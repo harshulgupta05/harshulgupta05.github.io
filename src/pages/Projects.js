@@ -19,10 +19,10 @@ function Projects() {
                         <Project protitle="HelperCLI" imagetitle="Image Credit: publicdomainpictures.net" description="A CLI built in Rust to help students keep track of assignments, tests, and other events throughout the school year." link="https://github.com/harshulgupta05/helper-cli" imagelink={hand} />
                     </div>
                     <div className="col-sm">
-                        <Project protitle="Songbird" imagetitle="Image Credit: SabineDeviche, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" description="A web app created for Hack The North 2020++ that creates playlists based on the 'vibe' your Twitter feed gives off." link="https://github.com/arnavgupta03/songbird" imagelink={songbird} />
+                        <Project protitle="Songbird" imagetitle="Image Credit: SabineDeviche, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" description="A web app created for Hack The North 2020++ that creates playlists based on the 'vibe' your Twitter feed gives off." link="https://songbirdweb.herokuapp.com/" imagelink={songbird} />
                     </div>
                     <div className="col-sm">
-                        <Project protitle="Potluck" imagetitle="Image Credit: Crisco 1492, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" description="A social media web app created for XHacks 2021 designed for foodies and cooks to share recipes and food with the world." link="https://arnavgupta03.github.io/potluck/" imagelink={potluck} />
+                        <Project protitle="Potluck" imagetitle="Image Credit: Crisco 1492, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" description="A social media web app created in a team for XHacks 2021 designed for foodies and cooks to share recipes and food with the world." link="https://arnavgupta03.github.io/potluck/" imagelink={potluck} />
                     </div>
                     <div className="col-sm">
                         <Project protitle="Consensus" imagetitle="Image Credit: Alpha Stock Images - http://alphastockimages.com/ " description="A web app created for EngHack 2021 that helps groups of friends pick a movie to watch based on genre and popularity." link="https://consensus-web.herokuapp.com/" imagelink={consensus} />
